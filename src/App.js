@@ -1,5 +1,10 @@
 import React from 'react';
-
+import Header from './components/Header';
 export default function App() {
-  return <h1>Humberto</h1>;
+  return (
+    <>
+      <Header></Header>
+      <h1>Humberto</h1>
+    </>
+  );
 }
